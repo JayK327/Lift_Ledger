@@ -66,7 +66,7 @@ conda deactivate
 ```
 conda env create -f environment.yml
 ```
-```
+
 3. Activate the environment (make sure the name of the environment is correct): 
 ```
 conda activate tracking-barbell-exercises
@@ -80,8 +80,7 @@ I also visualized every single exercises tracking and script the workflow of the
 ## Files Structure
 ```
 ├── data
-│   ├── interim              <- Intermediate, final, canonical data sets for modeling.
-│   ├── processed            
+│   ├── interim              <- Intermediate, final, canonical data sets for modeling.            
 │   └── raw                  <- The original, immutable data dump.
 │
 ├── docs                     <- documents for every steps in the project.
@@ -98,7 +97,8 @@ I also visualized every single exercises tracking and script the workflow of the
 │
 ├── src                      <- Source code for use in this project.
 │   ├── data                 <- Download and generate data.
-│   ├── features             <- Turn raw data into features for modeling and functions from the machine learning for quantified self book
+│   ├── features             <- Turn raw data into features for modeling.
+│                            <- functions from the machine learning for quantified self book
 │   ├── models               <- Choose models and use models to make predictions.
 │   ├── visualizations       <- Visualize the data out.
 ├── environment.yml
@@ -114,12 +114,9 @@ Thank you Mark Hoogendoorn and Burkhardt Funk from the book [Machine Learning fo
 Special thanks for [Dave Ebbelaar](https://www.youtube.com/@daveebbelaar) for the dataset and awesome instructions, I've learnt a lot from this project. 
 
 ## License
-
 This repository license is under the MIT License.
 
-[MIT License](LICENSE)
-
-
+[MIT License](LISENCE)
 
 ## Contact
 
