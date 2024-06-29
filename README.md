@@ -116,7 +116,7 @@ Special thanks for [Dave Ebbelaar](https://www.youtube.com/@daveebbelaar) for th
 ## License
 This repository license is under the MIT License.
 
-[MIT License](LISENCE/)
+[MIT License](LICENSE/)
 
 ## Contact
 
